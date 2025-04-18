@@ -1,0 +1,15 @@
+// follow back of the notebook(da labs) for revision of hashing
+
+
+leetcode question is different than the question asked in basic hashing
+in question by tuf we just need to find highest occurring element and lowest occurring element in an array
+which we can do by map. add all elements as keys values as their counts and then loop map and find the highest value and return key there.
+
+but in leetcode it is different although i thought of brute force
+
+// brute force is -
+        // sort in descending then take target as highest number
+        // then loop through the array that is left after the highest number
+        // and fill other numbers with k and if we get number == target then we can 
+        // put inside count integer(check count condition for highest freq).
+        // once the loop is over we will get our max count 
